@@ -1,0 +1,36 @@
+{
+  "name": "solflow-io",
+  "version": "1.0.0",
+  "description": "Deterministic Solana liquidity execution route monitor and stream shield generated via Noah AI Platform",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "keywords": [
+    "solana",
+    "web3",
+    "noah-ai",
+    "liquidity",
+    "dex",
+    "aggregator",
+    "route-monitor",
+    "swap-io",
+    "raydium",
+    "jupiter"
+  ],
+  "author": "CODEXB1TCH",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.3",
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  }
+}
